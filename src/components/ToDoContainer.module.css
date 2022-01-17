@@ -1,0 +1,27 @@
+.toDoContainer {
+  padding: 1.5rem 3rem;
+}
+
+.bigToDo {
+  background: papayawhip;
+  --font-size: 3rem;
+}
+
+.littleToDoContainer {
+  background: yellow;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  --font-size: 2rem;
+}
+
+@media screen and (min-width: 780px) {
+  .bigToDo {
+    --font-size: 6rem;
+  }
+
+  .littleToDoContainer {
+    --font-size: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

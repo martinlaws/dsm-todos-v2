@@ -1,0 +1,32 @@
+.showData {
+  display: block;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.headerWrapper {
+  padding: 1rem 3rem;
+}
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dsmDataToggle {
+  background: none;
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  transition: var(--base-transition);
+  height: fit-content;
+  padding: 1.5rem;
+}
+
+.dsmDataToggle:hover {
+  background: grey;
+  color: #fff;
+}

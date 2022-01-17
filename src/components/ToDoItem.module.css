@@ -1,0 +1,25 @@
+.hidden {
+  display: none;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.toDoItemWrapper {
+  min-width: 33%;
+  padding: 1rem 2rem;
+}
+
+.displayButton {
+  background: none;
+  border: none;
+  font-size: var(--font-size);
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.input {
+  font-size: var(--font-size);
+  max-width: 100%;
+}
